@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #DBD7D7;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	border-bottom: 2px solid red;
+}
+
+header h2 {
+	padding: 1rem 0;
+	text-align: center;
+}
+
+section {
+	width: 90%;
+	margin: auto;
+	margin-top: 3rem;
+}
+
+#form {
+	display: grid;
+	grid-template-columns:1fr;
+	border-bottom: 5px solid green;
+}
+
+#form #search,#form #search-btn {
+	padding: 1rem 0;
+	font-size: 2rem;
+}
+
+#search-btn {
+	border: none;
+	padding: 0.5rem;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+}
+
+/* Output Word */
+#found-words {
+	border: 3px solid #333;
+	height: 60vh;
+	overflow: auto;
+	list-style: none;
+}
+
+.list-item {
+	padding: 0.8rem 0;
+	padding-left: 1rem;
+	background-color: #242222;
+	color: #fff;
+	font-size: 1.5rem;
+	border-bottom: 1px solid #eee;
+}
+
+.strong {
+	color: red;
+}
